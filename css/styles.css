@@ -89,4 +89,26 @@
   .navbar .links ul li {
     font-size: 15px;
   }
+  /* Banner Styles */
+  .banner {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 30px;
+    margin: 50px auto;
+  }
+  .banner-content {
+    text-align: center;
+    width: 455px;
+  }
+  .banner-content h3 {
+    font-size: 28px;
+  }
+  .banner-img img {
+    width: 202px;
+  }
+  .banner-content p {
+    font-size: 15px;
+    margin: 16px 40px;
+  }
 }
