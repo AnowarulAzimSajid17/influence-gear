@@ -38,6 +38,43 @@
   line-height: 34px;
 }
 
+/* Banner Styles */
+.banner {
+  display: flex;
+  gap: 133px;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+
+.banner-content {
+  width: 562px;
+}
+
+.banner-content h3 {
+  color: rgba(58, 58, 58, 1);
+  font-size: 52px;
+  line-height: 70px;
+  margin-bottom: 16px;
+}
+
+.banner-content p {
+  color: rgba(58, 58, 58, 1);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.banner-content button {
+  padding: 15px 30px;
+  border-radius: 44px;
+  border: none;
+  background: rgba(224, 44, 109, 1);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+
 /* Media Query */
 @media screen and (max-width: 576px) {
   /* Navbar Styles */
