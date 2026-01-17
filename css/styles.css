@@ -7,6 +7,12 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.container {
+  width: 71%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 /* Header Styles */
 
 /* Navbar Styles */
@@ -75,20 +81,36 @@
   font-weight: 700;
 }
 
+/* Main Styles */
+
+/* Sponsor Styles */
+.sponsor-content {
+  margin-top: 200px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
 /* Media Query */
 @media screen and (max-width: 576px) {
+
   /* Navbar Styles */
   .navbar {
     flex-direction: column;
     margin: 35px auto;
     gap: 30px;
   }
+
   .navbar .links ul {
     gap: 15px;
   }
+
   .navbar .links ul li {
     font-size: 15px;
   }
+
   /* Banner Styles */
   .banner {
     flex-direction: column;
@@ -97,18 +119,24 @@
     gap: 30px;
     margin: 50px auto;
   }
+
   .banner-content {
     text-align: center;
     width: 455px;
   }
+
   .banner-content h3 {
     font-size: 28px;
   }
+
   .banner-img img {
     width: 202px;
   }
+
   .banner-content p {
     font-size: 15px;
     margin: 16px 40px;
   }
+
+
 }
