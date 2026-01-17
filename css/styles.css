@@ -138,5 +138,10 @@
     margin: 16px 40px;
   }
 
-
+  /* Sponsor Styles */
+  .sponsor-content {
+    margin-top: 150px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
