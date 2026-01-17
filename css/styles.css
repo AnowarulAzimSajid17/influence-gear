@@ -175,7 +175,7 @@
   font-weight: 700;
 }
 
-/* Footer Section */
+/* Footer Styles */
 footer {
   background: rgba(10, 8, 38, 1);
   color: white;
@@ -270,5 +270,10 @@ footer .footer-icons i {
 
   .features-content {
     text-align: center;
+  }
+
+  /* Footer Styles */
+  footer {
+    padding: 50px 99px;
   }
 }
